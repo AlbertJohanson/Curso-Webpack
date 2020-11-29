@@ -1,0 +1,22 @@
+{
+  "name": "webpack-4",
+  "version": "1.0.0",
+  "description": "esto sera divertido",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlbertJohanson/Curso-Webpack.git"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "@Johanson_aj",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AlbertJohanson/Curso-Webpack/issues"
+  },
+  "homepage": "https://github.com/AlbertJohanson/Curso-Webpack#readme"
+}
