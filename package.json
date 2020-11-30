@@ -3,8 +3,11 @@
   "version": "1.0.0",
   "description": "esto sera divertido",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "scripts": {    
+    "build":"webpack --entry ./index.js --output ./bundle.js --mode development",
+    "build:local":"webpack --mode production",
+    "build:external":"webpack --config ./external/webpack.config.js",
+    "build:multi":"webpack --config ./multy-entry-points/webpack.config.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +21,10 @@
   "bugs": {
     "url": "https://github.com/AlbertJohanson/Curso-Webpack/issues"
   },
-  "homepage": "https://github.com/AlbertJohanson/Curso-Webpack#readme"
+  "homepage": "https://github.com/AlbertJohanson/Curso-Webpack#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "webpack": "4.32.2",
+    "webpack-cli": "3.3.2"
+  }
 }
