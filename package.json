@@ -11,7 +11,8 @@
     "build:loader": "webpack --config ./style-css-loader/webpack.config.js",
     "build:plugin": "webpack --config ./plugins/webpack.config.js",
     "build:dev-server": "webpack-dev-server --config ./webpack-dev-server/webpack.config.js",
-    "build:babel": "webpack-dev-server --config ./babel/webpack.config.js"
+    "build:babel": "webpack-dev-server --config ./babel/webpack.config.js",
+    "build:react": "webpack-dev-server --config ./react/webpack.config.js"
   },
   "repository": {
     "type": "git",
@@ -26,11 +27,15 @@
     "url": "https://github.com/AlbertJohanson/Curso-Webpack/issues"
   },
   "homepage": "https://github.com/AlbertJohanson/Curso-Webpack#readme",
-  "dependencies": {},
+  "dependencies": {
+    "react": "16.8.6",
+    "react-dom": "16.8.6"
+  },
   "devDependencies": {
     "@babel/core": "7.4.5",
     "@babel/plugin-transform-runtime": "7.4.4",
     "@babel/preset-env": "7.4.5",
+    "@babel/preset-react": "7.0.0",
     "babel-loader": "8.0.6",
     "css-loader": "5.0.1",
     "html-webpack-plugin": "4.5.0",
